@@ -1,0 +1,30 @@
+
+Clover EFI installer log - Fri Aug  7 17:33:18 ICT 2020
+Installer version: v2.5k r5103 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macos                   80.1 GB    disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:                  Apple_HFS Local Disk              39.0 GB    disk0s4
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS Untitled                119.7 GB   disk1s2
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Untitled
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Untitled
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
